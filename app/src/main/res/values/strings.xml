@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">IT20020880</string>
+    <string name="upload_image">upload Image</string>
+    <string name="category">Category</string>
+    <string name="delivery_available"> Delivery Available?</string>
+    <string name="food_description">Food Description</string>
+    <string name="yes">Yes</string>
+    <string name="No">No</string>
+    <string name="pickup_location">Pickup Location</string>
+    <string name="add_food">Add Food</string>
+    <string name="my_products">My Products</string>
+    <string name="deleted_items">Deleted Items</string>
+    <string name="edit_history">edit History</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="whiskey_king_burger">Whiskey King Burger</string>
+    <string name="burger_bun">Burger Bun</string>
+    <string name="the_lola_burger">The Lola Burger</string>
+    <string name="rice_pack">Rice Pack</string>
+    <string name="butter_chicken_rice">Butter Chicken Rice</string>
+    <string name="save">Save</string>
+    <string name="change_restaurant_photo">Change Restaurant Photo</string>
+    <string name="district">District</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="branches_available">Branches Available?</string>
+    <string name="about">About</string>
+    <string name="telephone">Telephone</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="cancel">Cancel</string>
+    <string name="change_profile_photo">Change Profile photo</string>
+    <string name="name">Name *</string>
+    <string name="phone_number">Phone Number *</string>
+    <string name="date">Date</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="date_of_birth">Date of Birth</string>
+
+</resources>
