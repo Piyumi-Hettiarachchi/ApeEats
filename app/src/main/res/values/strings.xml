@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Anjana</string>
+    <string name="sell_with_us">Sell With Us !!</string>
+    <string name="name">Name *</string>
+    <string name="email">\@Email</string>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="next">Next</string>
+    <string name="emailc">Email *</string>
+    <string name="register_with_us">Register With Us!</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already Have an Account</string>
+    <string name="login">Login</string>
+    <string name="new_user_register_now">New User? Register Now</string>
+    <string name="are_you_a_customer">Are You A Customer ?</string>
+    <string name="are_you_a_restaurant_owner">Are you a Restaurant Owner ?</string>
+    <string name="your_food_cart">Your Food Cart</string>
+    <string name="grilled_salmon">Grilled Salmon</string>
+    <string name="rs_500">Rs 500 /=</string>
+    <string name="add_cart_2">Add cart 2+</string>
+    <string name="add_items">+ Add items</string>
+    <string name="sub_total_rs">Sub Total = Rs.</string>
+    <string name="shipping_rs">Shipping = Rs.</string>
+    <string name="total_rs">Total = Rs.</string>
+    <string name="place_order">Place Order</string>
+</resources>
