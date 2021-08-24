@@ -1,4 +1,4 @@
-package com.example.it20020880;
+package com.example.ApeEats;
 
 import androidx.appcompat.app.AppCompatActivity;
 

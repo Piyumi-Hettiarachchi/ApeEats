@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.it20020880">
+    package="com.example.ApeEats">
 
     <application
         android:allowBackup="true"
@@ -9,21 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.IT20020880">
-        <activity android:name=".CustomerProfile">
+        <activity android:name="com.example.ApeEats.CustomerProfile">
 
         </activity>
-        <activity android:name=".EditProduct"></activity>
-        <activity android:name=".RestaurantProfile">
+        <activity android:name="com.example.ApeEats.EditProduct"></activity>
+        <activity android:name="com.example.ApeEats.RestaurantProfile">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ProductList"></activity>
-        <activity android:name=".AddProduct">
+        <activity android:name="com.example.ApeEats.ProductList"></activity>
+        <activity android:name="com.example.ApeEats.AddProduct">
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.example.ApeEats.MainActivity" />
     </application>
 
 </manifest>
