@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ApeEats"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="57dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_home" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/logocrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/how_is_your_last_order_from_our_restaurant"
+            android:layout_weight="1"
+            android:textSize="28dp"
+            android:textColor="@color/purple_700"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/order_code_od10011"
+            android:textSize="22dp"
+            android:textColor="@color/black"/>
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/editTextDate2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:inputType="date"
+            android:text="@string/date_18_01_2022"
+            android:layout_marginTop="50dp"/>
+
+    </LinearLayout>
+</LinearLayout>

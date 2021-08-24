@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Feedback</string>
+    <string name="how_is_your_last_order_from_our_restaurant">How is your last order from our Restaurant?</string>
+    <string name="good">Good</string>
+    <string name="feedback">FeedBack</string>
+    <string name="comments">comments</string>
+    <string name="show_my_name">Show My name</string>
+    <string name="submit">Submit</string>
+    <string name="date_18_02_2022">date 18/02/2022</string>
+    <string name="date_18_01_2022">date 18/01/2022</string>
+    <string name="order_code_od10011">Order Code : OD10011</string>
+    <string name="thankyou_for_your_feedback">Thankyou for your feedback</string>
+    <string name="done">Done</string>
+
+</resources>
