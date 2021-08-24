@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Anushka</string>
+    <string name="order_management_dashboard">Order Management Dashboard</string>
+    <string name="order_01">Order 01</string>
+    <string name="order_02">Order 02</string>
+    <string name="order_03">Order 03</string>
+    <string name="order_04">Order 04</string>
+    <string name="order_05">Order 05</string>
+    <string name="pending_orders">Pending Orders</string>
+    <string name="finished_orders">Finished Orders</string>
+    <string name="status_of_deliveries">Status Of Deliveries</string>
+    <string name="pending_orders2">Pending Orders</string>
+    <string name="food_name">Food Name</string>
+    <string name="order_no">Order No</string>
+</resources>
