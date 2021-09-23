@@ -9,21 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.IT20020880">
-        <activity android:name="com.example.ApeEats.CustomerProfile">
-
-        </activity>
-        <activity android:name="com.example.ApeEats.EditProduct"></activity>
-        <activity android:name="com.example.ApeEats.RestaurantProfile">
+        <activity android:name=".ResHome"></activity>
+        <activity android:name=".createAccount" />
+        <activity android:name=".CustomerProfile" />
+        <activity android:name=".EditProduct" />
+        <activity android:name=".RestaurantProfile">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.ApeEats.ProductList"></activity>
-        <activity android:name="com.example.ApeEats.AddProduct">
-        </activity>
-        <activity android:name="com.example.ApeEats.MainActivity" />
+        <activity android:name=".ProductList" />
+        <activity android:name=".AddProduct" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
