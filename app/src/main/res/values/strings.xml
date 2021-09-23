@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">IT20020880</string>
+    <string name="app_name">ApeEats</string>
     <string name="upload_image">upload Image</string>
     <string name="category">Category</string>
     <string name="delivery_available"> Delivery Available?</string>
