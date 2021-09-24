@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResDrawer"
+    android:orientation="vertical"
+    android:background="@drawable/greenb">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="@dimen/toolbar_profile_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="20dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_profile"
+                android:layout_width="match_parent"
+                android:layout_height="144dp"
+                android:layout_marginTop="@dimen/activity_padding"
+                android:layout_marginBottom="@dimen/activity_padding"
+                android:src="@drawable/cooking"
+                app:civ_border_color="#838383"
+                app:civ_border_width="2dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="70dp"
+            android:textSize="20sp"
+            android:text="Edit Profile"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Products"
+            android:background="@drawable/rrounded_corner"
+            android:backgroundTint="@color/green2"
+            android:layout_marginBottom="15dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Offer"
+            android:background="@drawable/rrounded_corner"
+            android:backgroundTint="@color/green"
+            android:layout_marginBottom="15dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage Order"
+            android:background="@drawable/rrounded_corner"
+            android:backgroundTint="@color/green"
+            android:layout_marginBottom="15dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delivery Status"
+            android:background="@drawable/rrounded_corner"
+            android:backgroundTint="@color/green"
+            android:layout_marginBottom="15dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feedback and App Rating"
+            android:background="@drawable/rrounded_corner"
+            android:backgroundTint="@color/green"
+            android:layout_marginBottom="15dp"
+            />
+
+        <Button
+            android:id="@+id/reslogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rrounded_corner"
+            android:backgroundTint="@color/green"
+            android:text="Logout" />
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
