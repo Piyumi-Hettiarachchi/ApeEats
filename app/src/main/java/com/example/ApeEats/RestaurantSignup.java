@@ -37,13 +37,6 @@ public class RestaurantSignup extends AppCompatActivity {
         fbauthentication = FirebaseAuth.getInstance();
 
 
-        //check if the user is already login to the app
-        if(fbauthentication.getCurrentUser()!= null){
-
-            startActivity(new Intent(getApplicationContext(),createAccount.class));
-            finish();
-        }
-
 
         ressignup.setOnClickListener(new View.OnClickListener() {
             @Override
