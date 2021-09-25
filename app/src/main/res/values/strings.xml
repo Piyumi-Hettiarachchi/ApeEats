@@ -50,5 +50,8 @@
     <string name="view_all">View All</string>
     <string name="myfoods">MyFoods</string>
     <string name="category1">Category</string>
+    <string name="branch_1">Branch 1</string>
+    <string name="branch_2">Branch 2</string>
+    <string name="branch_3">Branch 3</string>
 
 </resources>
