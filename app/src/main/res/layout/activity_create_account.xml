@@ -56,7 +56,7 @@
             android:backgroundTint="@color/green"
             />
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/rfoodname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -113,7 +113,7 @@
 
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/rcategory"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -122,7 +122,7 @@
                 android:textSize="18dp" />
 
             <Spinner
-                android:id="@+id/spinnCategory"
+                android:id="@+id/rspinn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="10" />

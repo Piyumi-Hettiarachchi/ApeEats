@@ -50,9 +50,9 @@ public class createAccount extends AppCompatActivity {
 
         imgGet = findViewById(R.id.img_profile);
         uploadImg = findViewById(R.id.img_plus);
-        rDistrict = findViewById(R.id.spinnCategory);
+        rDistrict = findViewById(R.id.rspinn);
 
-        rName = findViewById(R.id.editTextTextPersonName);
+        rName = findViewById(R.id.rfoodname);
         rMobile = findViewById(R.id.resphone);
         rAbout = findViewById(R.id.editTextAbout);
         rEmail = findViewById(R.id.resmail);

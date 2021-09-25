@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".RestaurantProfile"
     android:orientation="vertical"
-    android:background="@drawable/greenb">
+    >
     <include layout="@layout/toolbar"/>
 
 
@@ -41,9 +41,10 @@
                 android:layout_marginTop="140dp">
 
                 <TextView
+                    android:id="@+id/restName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/restaurantname"
+                    android:text="@string/Restaurantname"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
@@ -103,15 +104,18 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="My products"
+                android:text="@string/myfoods"
                 android:textColor="@color/black"
-                android:textSize="20sp" />
-            <Button
+                android:textSize="20sp"
+                android:layout_marginRight="100dp"/>
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="155dp"
-                android:text="View All"
-                android:backgroundTint="@color/green"/>
+                android:text="@string/view_all"
+                android:textColor="@color/black"
+                android:layout_marginLeft="100dp"
+                android:textSize="20sp" />
+
 
         </LinearLayout>
     </LinearLayout>
