@@ -136,7 +136,7 @@ public class createAccount extends AppCompatActivity {
         CropImage.activity().start(this);
 
     }
-
+//image setting
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
         super.onActivityResult(requestCode,resultCode,data);

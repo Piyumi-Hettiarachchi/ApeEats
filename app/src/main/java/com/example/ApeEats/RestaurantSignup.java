@@ -36,8 +36,6 @@ public class RestaurantSignup extends AppCompatActivity {
 
         fbauthentication = FirebaseAuth.getInstance();
 
-
-
         ressignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

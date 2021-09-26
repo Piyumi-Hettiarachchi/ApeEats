@@ -59,7 +59,6 @@ public class AddProduct extends AppCompatActivity {
         addFood = findViewById(R.id.raddFood);
 
 
-
 // get data to the dropdown
         setDataSpinners();
 //get selected values
@@ -85,7 +84,7 @@ public class AddProduct extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if(dspinner.getSelectedItem().toString() != "Select a district")
+                if(dspinner.getSelectedItem().toString() != "Select a Cetegory")
                 {
                     Categ = dspinner.getSelectedItem().toString();
                 }

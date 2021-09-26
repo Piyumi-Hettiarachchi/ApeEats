@@ -205,7 +205,7 @@
                 android:text="@string/view_all"
                 android:textColor="@color/black"
                 android:textSize="18sp"
-                android:layout_marginLeft="100dp"/>
+                android:layout_marginLeft="80dp"/>
         </LinearLayout>
 
         <LinearLayout

@@ -11,13 +11,10 @@
         android:theme="@style/Theme.IT20020880">
         <activity android:name=".selectBranch"></activity>
         <activity android:name=".ResDrawer" />
-        <activity android:name=".RestaurantSignin" />
-        <activity android:name=".RestaurantSignup">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".RestaurantSignin"/>
+
+
+        <activity android:name=".RestaurantSignup"/>
 
         <activity android:name=".ResHome"/>
 
@@ -25,8 +22,14 @@
         <activity android:name=".CustomerProfile" />
         <activity android:name=".EditProduct" />
         <activity android:name=".RestaurantProfile" />
-        <activity android:name=".ProductList" />
-        <activity android:name=".AddProduct" />
+        <activity android:name=".ProductList"/>
+
+        <activity android:name=".AddProduct">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />

@@ -28,7 +28,7 @@ public class ProductList extends AppCompatActivity {
     l1 = findViewById(R.id.DynamicLayout);
 
 
-        for(int i=0;i<1;i++){
+        for(int i=0;i<10;i++){
         generateLayout();
     }
 }
