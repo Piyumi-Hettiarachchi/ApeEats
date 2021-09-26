@@ -78,8 +78,8 @@ public class ProductList extends AppCompatActivity {
         lpt.topMargin=50;
         tv1.setLayoutParams(lpt);
 
-        tv1.setText("Test1");
-        tv2.setText("Test2");
+        tv1.setText("Food1");
+        tv2.setText("description");
 
         tv1.setTextSize(20);
         tv2.setTextSize(16);

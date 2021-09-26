@@ -46,14 +46,14 @@
                     android:id="@+id/restName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/Restaurantname"
+                    android:text="The Olive Italy"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/restaurant_gmail_com"
+                    android:text="oliveItaly@gmail.com"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
@@ -143,7 +143,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_below="@id/orders"
-                        android:text="5"
+                        android:text="15"
                         android:textSize="15sp"
                         android:includeFontPadding="false"
                         android:layout_centerHorizontal="true"/>
@@ -179,25 +179,62 @@
                         android:includeFontPadding="false"
                         android:text="Add Branch" />
 
-
-
-
-
-
                 </RelativeLayout>
 
             </com.google.android.material.card.MaterialCardView>
 
 
+        </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_products"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginRight="100dp"/>
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/view_all"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginLeft="100dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="126dp"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/f1" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/f2" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/f3" />
 
 
         </LinearLayout>
 
-    </LinearLayout>
 
+        </LinearLayout>
 
 
 

@@ -15,11 +15,12 @@
         <activity android:name=".RestaurantSignup">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ResHome" />
+
+        <activity android:name=".ResHome"/>
+
         <activity android:name=".createAccount" />
         <activity android:name=".CustomerProfile" />
         <activity android:name=".EditProduct" />

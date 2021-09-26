@@ -8,7 +8,7 @@
     <string name="No">No</string>
     <string name="pickup_location">Pickup Location</string>
     <string name="add_food">Add Food</string>
-    <string name="my_products">My Products</string>
+    <string name="my_products1">My Products</string>
     <string name="deleted_items">Deleted Items</string>
     <string name="edit_history">edit History</string>
     <string name="delete">Delete</string>
@@ -47,11 +47,15 @@
     <string name="login">Login</string>
     <string name="new_user_register_now">new_user_Register_Now</string>
     <string name="register">Register</string>
-    <string name="view_all">View All</string>
+    <string name="view_all1">View All</string>
     <string name="myfoods">MyFoods</string>
     <string name="category1">Category</string>
     <string name="branch_1">Branch 1</string>
     <string name="branch_2">Branch 2</string>
     <string name="branch_3">Branch 3</string>
+    <string name="my_products">My Products</string>
+    <string name="view_all">View All</string>
+    <string name="the_cream">The Cream</string>
+    <string name="thecream_gmail_com">thecream.gmail.com</string>
 
 </resources>
