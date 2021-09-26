@@ -57,5 +57,17 @@
     <string name="view_all">View All</string>
     <string name="the_cream">The Cream</string>
     <string name="thecream_gmail_com">thecream.gmail.com</string>
+    <string name="add_product">Add Product</string>
+    <string name="add_offer">Add Offer</string>
+    <string name="manage_order">Manage Order</string>
+    <string name="deliver_status">Deliver Status</string>
+    <string name="support_us">Support Us</string>
+    <string name="feedback">Feedback</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="logout">Logout</string>
+    <string name="ape_eats">Ape Eats</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
 
 </resources>
