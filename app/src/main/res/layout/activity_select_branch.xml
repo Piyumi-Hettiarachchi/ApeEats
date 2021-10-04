@@ -50,25 +50,59 @@
             android:layout_marginRight="10dp"
             android:layout_marginTop="0dp">
 
+            <EditText
+                android:id="@+id/branchname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/black"
+                android:inputType="textPersonName"
+                android:hint="Branch Name"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="City"
+                android:inputType="textPersonName"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="2dp">
+
+
+                <TextView
+                    android:id="@+id/rcategory"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/district"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <Spinner
+                    android:id="@+id/rspinn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10" />
+
+
+            </LinearLayout>
+
+
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/branch_1"
-                android:background="@drawable/rrounded_corner"
-                android:backgroundTint="@color/green2"
-                android:layout_marginBottom="15dp"/>
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/branch_2"
-                android:background="@drawable/rrounded_corner"
-                android:backgroundTint="@color/green"
-                android:layout_marginBottom="15dp"
-                />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/branch_3"
+                android:text="Add Branch"
+                android:layout_marginTop="30dp"
                 android:background="@drawable/rrounded_corner"
                 android:backgroundTint="@color/green"
                 android:layout_marginBottom="15dp"

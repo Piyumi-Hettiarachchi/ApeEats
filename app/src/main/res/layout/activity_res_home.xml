@@ -69,14 +69,14 @@
                         android:id="@+id/restName"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="The Olive Italy"
+                        android:text="@string/Restaurantname"
                         android:textColor="@color/black"
                         android:textSize="20sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="oliveItaly@gmail.com"
+                        android:text="@string/restaurant_gmail_com"
                         android:textColor="@color/black"
                         android:textSize="20sp" />
 

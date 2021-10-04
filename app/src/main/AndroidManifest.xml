@@ -13,7 +13,7 @@
         <activity android:name=".ResDrawer" />
         <activity android:name=".RestaurantSignin" />
         <activity android:name=".RestaurantSignup" />
-        <activity android:name=".ResHome" >
+        <activity android:name=".ResHome">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,8 +25,7 @@
         <activity android:name=".EditProduct" />
         <activity android:name=".RestaurantProfile" />
         <activity android:name=".ProductList" />
-        <activity android:name=".AddProduct"/>
-
+        <activity android:name=".AddProduct" />
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />

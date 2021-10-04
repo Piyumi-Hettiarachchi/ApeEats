@@ -17,7 +17,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.ApeEats.models.ProductModel;
-import com.example.ApeEats.models.RestaurantModel;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.theartofdev.edmodo.cropper.CropImage;
@@ -51,7 +50,7 @@ public class AddProduct extends AppCompatActivity {
 
          rAddimage = findViewById(R.id.Addimage);
          rplus = findViewById(R.id.img_plus);
-         addFoodname = findViewById(R.id.rfoodname);
+         addFoodname = findViewById(R.id.branchname);
         addDescription = findViewById(R.id.rfooddes);
         addCategory = findViewById(R.id.rcategory);
         addPrice = findViewById(R.id.rprice);
