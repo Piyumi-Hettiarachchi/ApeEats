@@ -28,6 +28,7 @@ public class RestaurantSignup extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_restaurant_signup);
 
+        //identify all the ids to these attributes
         resname = findViewById(R.id.resname);
         resemail= findViewById(R.id.resmail);
         respassword=findViewById(R.id.repw);

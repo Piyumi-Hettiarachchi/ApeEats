@@ -38,208 +38,208 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_marginTop="3dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp">
-
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/change_restaurant_photo"
-            app:icon="@drawable/ic_photo"
-            app:iconGravity="textStart"
-            android:backgroundTint="@color/green"
-            android:textColor="@color/black"
-            />
-
-        <EditText
-            android:id="@+id/branchname"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:textColorHint="@color/black"
-            android:hint="@string/restaurant_name"
-            android:layout_marginTop="10dp"/>
-
-        <EditText
-            android:id="@+id/resphone"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="phone"
-            android:textColorHint="@color/black"
-            android:hint="@string/telephone"/>
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="@string/about"
-            android:textColorHint="@color/black"
-            android:layout_marginTop="5dp"/>
-
-
-        <EditText
-            android:id="@+id/resmail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textEmailAddress"
-            android:textColorHint="@color/black"
-            android:hint="@string/email"/>
-
-
-        <EditText
-            android:id="@+id/editTextTextPostalAddress"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPostalAddress"
-            android:textColorHint="@color/black"
-            android:hint="@string/address"/>
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="2dp">
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
 
-
-            <TextView
-                android:id="@+id/rcategory"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/district"
-                android:layout_weight="1"
-                android:textSize="18dp"
-                android:textColor="@color/black"
-                />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_drop"
-                />
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="8dp"
-            android:layout_marginLeft="2dp">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="@string/branches_available"
-                android:textColor="@color/black"
-                android:textSize="18sp"
-                android:gravity="center_vertical"/>
-            <RadioGroup
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <RadioButton
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2"
-                    android:text="@string/yes"
-                    android:layout_marginRight="10dp"/>
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/No"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
-                    />
-
-            </RadioGroup>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="8dp"
-            android:layout_marginLeft="2dp">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="@string/delivery_available"
-                android:textColor="@color/black"
-                android:textSize="18sp"
-                android:gravity="center_vertical"/>
-            <RadioGroup
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <RadioButton
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2"
-                    android:text="@string/yes"
-                    android:layout_marginRight="10dp"/>
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/No"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
-                    />
-
-            </RadioGroup>
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="5dp">
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_gravity="center_vertical"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/green"
-                android:text="@string/save"
+                android:text="@string/change_restaurant_photo"
+                app:icon="@drawable/ic_photo"
                 app:iconGravity="textStart"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="100dp"
-                android:layout_marginLeft="40dp"
+                android:backgroundTint="@color/green"
+                android:textColor="@color/black"
                 />
 
-            <Button
-                android:layout_width="106dp"
+            <EditText
+                android:id="@+id/updateName"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/black"
+                android:hint="@string/restaurant_name"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:id="@+id/resphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone"
+                android:textColorHint="@color/black"
+                android:hint="@string/telephone"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="@string/about"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="5dp"/>
+
+
+            <EditText
+                android:id="@+id/resmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/black"
+                android:hint="@string/email"/>
+
+
+            <EditText
+                android:id="@+id/editTextTextPostalAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPostalAddress"
+                android:textColorHint="@color/black"
+                android:hint="@string/address"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
                 android:layout_marginTop="10dp"
-                android:layout_marginRight="34dp"
-                android:backgroundTint="@color/green"
-                android:text="@string/cancel"
-                app:iconGravity="textStart" />
+                android:layout_marginLeft="2dp">
+
+
+                <TextView
+                    android:id="@+id/rcategory"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/district"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_drop"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="2dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/branches_available"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="center_vertical"/>
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/yes"
+                        android:layout_marginRight="10dp"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/No"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="2dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/delivery_available"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="center_vertical"/>
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/yes"
+                        android:layout_marginRight="10dp"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/No"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        />
+
+                </RadioGroup>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/green"
+                    android:text="@string/save"
+                    app:iconGravity="textStart"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="100dp"
+                    android:layout_marginLeft="40dp"
+                    />
+
+                <Button
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="34dp"
+                    android:backgroundTint="@color/green"
+                    android:text="@string/cancel"
+                    app:iconGravity="textStart" />
+
+
+            </LinearLayout>
 
 
         </LinearLayout>
-
-
-    </LinearLayout>
 
 
     </ScrollView>

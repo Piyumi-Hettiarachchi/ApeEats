@@ -60,7 +60,7 @@
                 android:id="@+id/resname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/name"
+                android:hint="@string/name"
                 android:textColor="@color/black" />
 
         </LinearLayout>
@@ -84,7 +84,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textEmailAddress"
-                android:text="email" />
+                android:hint="email" />
 
         </LinearLayout>
         <LinearLayout
@@ -106,7 +106,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPassword"
-                android:text=    "password"/>
+                android:hint=    "password"/>
 
 
 
@@ -130,7 +130,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="phone"
-                android:text="@string/phone_number"/>
+                android:hint="@string/phone_number"/>
 
         </LinearLayout>
 

@@ -56,7 +56,7 @@
             android:backgroundTint="@color/green"
             />
         <EditText
-            android:id="@+id/branchname"
+            android:id="@+id/restaurantname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"

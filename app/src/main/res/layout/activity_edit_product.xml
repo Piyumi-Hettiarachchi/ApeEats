@@ -8,13 +8,33 @@
     android:orientation="vertical">
     <include layout="@layout/toolbar"/>
 
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:src="@drawable/image"
-        android:layout_gravity="center"
-        android:layout_marginTop="25dp"
-        />
+    <RelativeLayout
+        android:layout_width="@dimen/toolbar_profile_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:id="@+id/updateImg"
+            android:layout_width="@dimen/toolbar_profile_width"
+            android:layout_height="@dimen/toolbar_profile_width"
+            android:layout_marginTop="@dimen/activity_padding"
+            android:layout_marginBottom="@dimen/activity_padding"
+            android:src="@drawable/image"
+            app:civ_border_color="#838383"
+            app:civ_border_width="2dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Edit_img_plus"
+            android:layout_width="@dimen/ic_plus_width"
+            android:layout_height="@dimen/ic_plus_width"
+            android:layout_alignBottom="@id/updateImg"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/ic_plus" />
+    </RelativeLayout>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -38,7 +58,7 @@
             />
 
         <EditText
-            android:id="@+id/branchname"
+            android:id="@+id/editfname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -56,7 +76,7 @@
 
 
             <TextView
-                android:id="@+id/rcategory"
+                android:id="@+id/editcat"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -65,29 +85,33 @@
                 android:textSize="18dp" />
 
             <Spinner
-                android:id="@+id/rspinn"
+                android:id="@+id/editspinn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="10" />
 
 
         </LinearLayout>
+
         <EditText
+            android:id="@+id/editdesc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:ems="10"
-            android:inputType="textPersonName"
             android:hint="@string/food_description"
-            android:textColorHint="@color/black"
-            android:layout_marginTop="10dp"/>
+            android:inputType="textPersonName"
+            android:textColorHint="@color/black" />
+
         <EditText
+            android:id="@+id/editprice"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
             android:ems="10"
-            android:inputType="textPersonName"
             android:hint="Price"
-            android:textColorHint="@color/black"
-            android:layout_marginTop="15dp"/>
+            android:inputType="textPersonName"
+            android:textColorHint="@color/black" />
 
 
         <LinearLayout
@@ -97,69 +121,50 @@
             android:layout_marginTop="10dp">
 
             <TextView
+                android:id="@+id/editRgroup"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:gravity="center_vertical"
                 android:text="@string/delivery_available"
                 android:textColor="@color/black"
-                android:textSize="18sp"
-                android:gravity="center_vertical"/>
+                android:textSize="18sp" />
+
             <RadioGroup
+                android:id="@+id/editrgroup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <RadioButton
+                    android:id="@+id/edityes"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
                     android:layout_weight="2"
-                    android:text="@string/yes"
-                    android:layout_marginRight="10dp"/>
+                    android:text="@string/yes" />
 
                 <RadioButton
+                    android:id="@+id/editno"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/No"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
-                    />
+                    android:text="@string/No" />
 
             </RadioGroup>
 
         </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="10dp">
-
-            <Button
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/white"
-                android:textColor="@color/black"
-                android:text="@string/pickup_location"
-                app:iconGravity="textStart" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:src="@drawable/ic_location"
-                android:layout_marginRight="20dp"
-                android:layout_marginLeft="30dp"/>
-
-        </LinearLayout>
 
         <Button
+            android:id="@+id/btnsv"
             android:layout_width="match_parent"
-            android:layout_gravity="center_vertical"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
             android:backgroundTint="@color/green"
             android:text="@string/save"
-            app:iconGravity="textStart"
-            android:layout_marginTop="10dp"
-            />
+            app:iconGravity="textStart" />
 
 
     </LinearLayout>

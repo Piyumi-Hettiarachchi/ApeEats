@@ -69,6 +69,9 @@
     <string name="edit_profile">Edit Profile</string>
     <string name="navigation_drawer_open">Open Navigation Drawer</string>
     <string name="navigation_drawer_close">Close Navigation Drawer</string>
-    <string name="district">District</string>
+    <string name="selectdistrict">District</string>
+    <string name="are_you_a_customer">Are You a Customer?</string>
+    <string name="are_you_a_restaurant_owner">Are you a Restaurant Owner?</string>
+    <string name="title_activity_res_map">Map</string>
 
 </resources>

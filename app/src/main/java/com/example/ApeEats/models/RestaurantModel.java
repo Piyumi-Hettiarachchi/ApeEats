@@ -2,6 +2,7 @@ package com.example.ApeEats.models;
 
 public class RestaurantModel {
 
+    String resID;
     String resImage;
     String resName;
     String resMobile;
@@ -11,9 +12,10 @@ public class RestaurantModel {
     String resDistrict;
     String resBranchAvailable;
     String resDeliveryAvailable;
+    String resUID;
 
-
-    public RestaurantModel(String resImage, String resName, String resMobile, String resAbout, String resEmail, String resAddress, String resDistrict, String resBranchAvailable, String resDeliveryAvailable) {
+    public RestaurantModel(String resID, String resImage, String resName, String resMobile, String resAbout, String resEmail, String resAddress, String resDistrict, String resBranchAvailable, String resDeliveryAvailable, String resUID) {
+        this.resID = resID;
         this.resImage = resImage;
         this.resName = resName;
         this.resMobile = resMobile;
@@ -23,6 +25,11 @@ public class RestaurantModel {
         this.resDistrict = resDistrict;
         this.resBranchAvailable = resBranchAvailable;
         this.resDeliveryAvailable = resDeliveryAvailable;
+        this.resUID = resUID;
+    }
+
+    public String getResID() {
+        return resID;
     }
 
     public String getResImage() {
@@ -59,5 +66,9 @@ public class RestaurantModel {
 
     public String getResDeliveryAvailable() {
         return resDeliveryAvailable;
+    }
+
+    public String getResUID() {
+        return resUID;
     }
 }
