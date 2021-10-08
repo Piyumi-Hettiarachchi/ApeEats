@@ -9,14 +9,35 @@
 
     <include layout="@layout/toolbar"/>
 
+    <RelativeLayout
+        android:layout_width="@dimen/toolbar_profile_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
 
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:src="@drawable/image"
-        android:layout_gravity="center"
-        android:layout_marginTop="25dp"
-        />
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:id="@+id/Addimage"
+            android:layout_width="@dimen/toolbar_profile_width"
+            android:layout_height="@dimen/toolbar_profile_width"
+            android:layout_marginTop="@dimen/activity_padding"
+            android:layout_marginBottom="@dimen/activity_padding"
+            android:src="@drawable/image"
+            app:civ_border_color="#838383"
+            app:civ_border_width="2dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_plus"
+            android:layout_width="@dimen/ic_plus_width"
+            android:layout_height="@dimen/ic_plus_width"
+            android:layout_alignBottom="@id/Addimage"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/ic_plus" />
+    </RelativeLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -35,50 +56,59 @@
             />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/addfname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textColor="@color/black"
             android:inputType="textPersonName"
             android:hint="Food Name"
             android:layout_marginTop="10dp"/>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="2dp">
 
 
             <TextView
-                android:id="@+id/textView2"
-                android:layout_width="0dp"
+                android:id="@+id/rcategory"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:text="@string/category"
                 android:layout_weight="1"
-                android:textSize="18dp"
-                />
+                android:text="@string/category"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
 
-            <ImageView
-                android:layout_width="wrap_content"
+            <Spinner
+                android:id="@+id/rspinn"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_drop"
-                />
+                android:layout_weight="10" />
+
 
         </LinearLayout>
+
         <EditText
+            android:id="@+id/rfooddes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:ems="10"
-            android:inputType="textPersonName"
+            android:textColor="@color/black"
             android:hint="@string/food_description"
-            android:layout_marginTop="10dp"/>
+            android:inputType="textPersonName" />
+
         <EditText
+            android:id="@+id/rprice"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
             android:ems="10"
-            android:inputType="textPersonName"
             android:hint="Price"
-            android:layout_marginTop="15dp"/>
+            android:inputType="textPersonName" />
 
 
         <LinearLayout
@@ -88,73 +118,55 @@
             android:layout_marginTop="10dp">
 
             <TextView
+                android:id="@+id/rDeliveryAvailable"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:gravity="center_vertical"
                 android:text="@string/delivery_available"
-                android:textSize="18sp"
-                android:gravity="center_vertical"/>
+                android:textSize="18sp" />
+
             <RadioGroup
+                android:id="@+id/Dgroup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <RadioButton
+                    android:id="@+id/DeliveryY"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
                     android:layout_weight="2"
-                    android:text="@string/yes"
-                    android:layout_marginRight="10dp"/>
+                    android:text="@string/yes" />
 
                 <RadioButton
+                    android:id="@+id/DeliveryN"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/No"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
-                    />
+                    android:text="@string/No" />
 
             </RadioGroup>
 
     </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="10dp">
 
-            <Button
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/white"
-                android:textColor="@color/black"
-                android:text="@string/pickup_location"
-                app:iconGravity="textStart" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:src="@drawable/ic_location"
-                android:layout_marginRight="20dp"
-                android:layout_marginLeft="30dp"/>
-
-        </LinearLayout>
 
         <Button
+            android:id="@+id/raddFood"
             android:layout_width="match_parent"
-            android:layout_gravity="center_vertical"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
             android:backgroundTint="@color/green"
             android:text="@string/add_food"
-            app:iconGravity="textStart"
-            android:layout_marginTop="10dp"
-            />
+            app:iconGravity="textStart" />
 
 
     </LinearLayout>
 
 
-
+</ScrollView>
 
 </LinearLayout>

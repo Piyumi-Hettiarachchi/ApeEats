@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RestaurantProfile"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar"/>
+
+
+    <RelativeLayout
+        android:layout_width="@dimen/toolbar_profile_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/img_profile"
+            android:layout_width="@dimen/toolbar_profile_width"
+            android:layout_height="@dimen/toolbar_profile_width"
+            android:layout_marginTop="@dimen/activity_padding"
+            android:layout_marginBottom="@dimen/activity_padding"
+            android:src="@drawable/cooking"
+            app:civ_border_color="#838383"
+            app:civ_border_width="2dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/img_plus"
+            android:layout_width="@dimen/ic_plus_width"
+            android:layout_height="@dimen/ic_plus_width"
+            android:layout_alignBottom="@id/img_profile"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_plus"
+            />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/upload_image"
+            app:icon="@drawable/ic_photo"
+            app:iconGravity="textStart"
+            android:backgroundTint="@color/green"
+            />
+        <EditText
+            android:id="@+id/restaurantname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/black"
+            android:hint="@string/restaurant_name"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/resphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:textColorHint="@color/black"
+            android:hint="@string/telephone"/>
+
+        <EditText
+            android:id="@+id/editTextAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/about"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="5dp"/>
+
+
+        <EditText
+            android:id="@+id/resmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/black"
+            android:hint="@string/email"/>
+
+
+        <EditText
+            android:id="@+id/editTextTextPostalAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPostalAddress"
+            android:textColorHint="@color/black"
+            android:hint="@string/address"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="2dp">
+
+
+            <TextView
+                android:id="@+id/rcategory"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/district"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/rspinn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="10" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="2dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/branches_available"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:gravity="center_vertical"/>
+
+            <RadioGroup
+                android:id="@+id/branchGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/bYes"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="2"
+                    android:text="@string/yes" />
+
+                <RadioButton
+                    android:id="@+id/bNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/No" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="2dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/delivery_available"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:gravity="center_vertical"/>
+
+            <RadioGroup
+                android:id="@+id/deliveryGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/dYes"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="2"
+                    android:text="@string/yes" />
+
+                <RadioButton
+                    android:id="@+id/dNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/No" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp">
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="100dp"
+                android:backgroundTint="@color/green"
+                android:text="@string/save"
+                app:iconGravity="textStart" />
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="34dp"
+                android:backgroundTint="@color/green"
+                android:text="@string/cancel"
+                app:iconGravity="textStart" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

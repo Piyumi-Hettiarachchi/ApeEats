@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "569905475300",
+    "firebase_url": "https://apeeats-9857c-default-rtdb.firebaseio.com",
+    "project_id": "apeeats-9857c",
+    "storage_bucket": "apeeats-9857c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569905475300:android:18c5b699dcd12bc246c6f1",
+        "android_client_info": {
+          "package_name": "com.example.it20020880"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569905475300-kkkmoth0q3cqhdt8ng5mt8a2gacr4dvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNPsfBMA-YWdso10jZLeafnO4E0Uzl4Rg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569905475300-kkkmoth0q3cqhdt8ng5mt8a2gacr4dvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
